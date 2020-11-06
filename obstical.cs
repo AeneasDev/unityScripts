@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DS : MonoBehaviour
+public class obstical : MonoBehaviour
 {
     public Rigidbody rb;
     public int s;
