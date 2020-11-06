@@ -23,7 +23,7 @@ namespace MovementPack {
 			}
 		}
 
-		void Update() {
+		private void Update() {
 			if (Input.GetKey(KeyCode.A)){
 				t.Rotate(0, -rSpeed * Time.deltaTime, 0);
 			}
